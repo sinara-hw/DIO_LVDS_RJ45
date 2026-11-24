@@ -18,10 +18,10 @@ RevisionNamingSchemeGUID=
 Name=PCB_3U_RJ45.OutJob
 Description=
 TargetOutputMedium=Folder Structure
-VariantName=[No Variations]
+VariantName=DIOT
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Brother DCP-J315W Printer
+TargetPrinter=Brother MFC-L2710DW series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -50,7 +50,7 @@ Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowPr
 OutputType2=PCB 3D Print
 OutputName2=PCB 3D Print
 OutputCategory2=Documentation
-OutputDocumentPath2=DIO_RJ45.PCBDOC
+OutputDocumentPath2=
 OutputVariantName2=
 OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
@@ -64,7 +64,7 @@ Configuration2_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|View
 OutputType3=PCB 3D Print
 OutputName3=Copy of PCB 3D Print
 OutputCategory3=Documentation
-OutputDocumentPath3=DIO_RJ45.PCBDOC
+OutputDocumentPath3=
 OutputVariantName3=
 OutputEnabled3=0
 OutputEnabled3_OutputMedium1=0
@@ -78,7 +78,7 @@ Configuration3_Item1=Record=Pcb3DPrintView|ResX=150|ResY=150|ViewX=39390063|View
 OutputType4=PCB Print
 OutputName4=PCB Prints
 OutputCategory4=Documentation
-OutputDocumentPath4=DIO_RJ45.PCBDOC
+OutputDocumentPath4=
 OutputVariantName4=
 OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
@@ -174,49 +174,49 @@ OutputName6=Generates pick and place files
 OutputCategory6=Assembly
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
-OutputEnabled6_OutputMedium3=4
+OutputEnabled6_OutputMedium3=0
 OutputEnabled6_OutputMedium4=0
 OutputDefault6=0
 Configuration6_Name1=OutputConfigurationParameter1
-Configuration6_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True
+Configuration6_Item1=Record=PickPlaceView|Units=Imperial|GenerateCSVFormat=False|GenerateTextFormat=True|DocumentPath=C:\Altium\polibuda\DIO_LVDS_RJ45_DIOT\DIO_RJ45_DIOT.PCBDOC
 OutputType7=Gerber
 OutputName7=Gerber Files
 OutputCategory7=Fabrication
 OutputDocumentPath7=
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
-OutputEnabled7_OutputMedium3=3
+OutputEnabled7_OutputMedium3=0
 OutputEnabled7_OutputMedium4=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842754~1,16842753~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False
+Configuration7_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TLayerToBoolean,16973830~1,16973832~1,16973834~1,16777217~1,16842754~1,16842753~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=C:\Altium\polibuda\DIO_LVDS_RJ45_DIOT\DIO_RJ45_DIOT.PCBDOC
 OutputType8=NC Drill
 OutputName8=NC Drill Files
 OutputCategory8=Fabrication
 OutputDocumentPath8=
 OutputVariantName8=
-OutputEnabled8=1
+OutputEnabled8=0
 OutputEnabled8_OutputMedium1=0
 OutputEnabled8_OutputMedium2=0
-OutputEnabled8_OutputMedium3=2
+OutputEnabled8_OutputMedium3=0
 OutputEnabled8_OutputMedium4=0
 OutputDefault8=0
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes
+Configuration8_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Altium\polibuda\DIO_LVDS_RJ45_DIOT\DIO_RJ45_DIOT.PCBDOC
 OutputType9=BOM_PartType
 OutputName9=Bill of Materials
 OutputCategory9=Report
 OutputDocumentPath9=
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
-OutputEnabled9_OutputMedium3=1
+OutputEnabled9_OutputMedium3=0
 OutputEnabled9_OutputMedium4=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
@@ -239,13 +239,26 @@ OutputName10=Report Board Stack
 OutputCategory10=Fabrication
 OutputDocumentPath10=
 OutputVariantName10=
-OutputEnabled10=1
+OutputEnabled10=0
 OutputEnabled10_OutputMedium1=0
 OutputEnabled10_OutputMedium2=5
-OutputEnabled10_OutputMedium3=5
+OutputEnabled10_OutputMedium3=0
 OutputEnabled10_OutputMedium4=0
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=ODB
+OutputName11=ODB++ Files
+OutputCategory11=Fabrication
+OutputDocumentPath11=
+OutputVariantName11=
+OutputEnabled11=1
+OutputEnabled11_OutputMedium1=0
+OutputEnabled11_OutputMedium2=0
+OutputEnabled11_OutputMedium3=1
+OutputEnabled11_OutputMedium4=0
+OutputDefault11=0
+Configuration11_Name1=OutputConfigurationParameter1
+Configuration11_Item1=Compression_None=False|Compression_tar_tgz=True|Compression_zip=False|DifferentFootprints=False|ExportPositivePlaneLayers=False|GenerateDRCRulesFile=False|IncludeUnconnectedMidLayerPads=False|IncludeVariantsData=False|IntentionalShorts=False|MergeNetTieNets=False|ObjsInsideBoardOutlineOnly=False|ODBProfileLayer=57|ODBProfileLayerV7=-1|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBottomLayerPlot=True|PlotBottomOverlayPlot=True|PlotBottomPastePlot=True|PlotBottomSolderPlot=True|PlotCounterHolesPairs=False|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPair0_Plot=False|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePair0_Plot=False|PlotDrillGuidePairs=False|PlotInternalPlane10Plot=False|PlotInternalPlane11Plot=False|PlotInternalPlane12Plot=False|PlotInternalPlane13Plot=False|PlotInternalPlane14Plot=False|PlotInternalPlane15Plot=False|PlotInternalPlane16Plot=False|PlotInternalPlane1Plot=True|PlotInternalPlane2Plot=True|PlotInternalPlane3Plot=False|PlotInternalPlane4Plot=False|PlotInternalPlane5Plot=False|PlotInternalPlane6Plot=False|PlotInternalPlane7Plot=False|PlotInternalPlane8Plot=False|PlotInternalPlane9Plot=False|PlotKeepOutLayerPlot=False|PlotMechanical10Plot=False|PlotMechanical11Plot=False|PlotMechanical12Plot=False|PlotMechanical13Plot=False|PlotMechanical14Plot=False|PlotMechanical15Plot=False|PlotMechanical16Plot=False|PlotMechanical1Plot=False|PlotMechanical2Plot=False|PlotMechanical3Plot=False|PlotMechanical4Plot=False|PlotMechanical5Plot=False|PlotMechanical6Plot=False|PlotMechanical7Plot=False|PlotMechanical8Plot=False|PlotMechanical9Plot=False|PlotMicroViasPairs=False|PlotMidLayer10Plot=False|PlotMidLayer11Plot=False|PlotMidLayer12Plot=False|PlotMidLayer13Plot=False|PlotMidLayer14Plot=False|PlotMidLayer15Plot=False|PlotMidLayer16Plot=False|PlotMidLayer17Plot=False|PlotMidLayer18Plot=False|PlotMidLayer19Plot=False|PlotMidLayer1Plot=False|PlotMidLayer20Plot=False|PlotMidLayer21Plot=False|PlotMidLayer22Plot=False|PlotMidLayer23Plot=False|PlotMidLayer24Plot=False|PlotMidLayer25Plot=False|PlotMidLayer26Plot=False|PlotMidLayer27Plot=False|PlotMidLayer28Plot=False|PlotMidLayer29Plot=False|PlotMidLayer2Plot=False|PlotMidLayer30Plot=False|PlotMidLayer3Plot=False|PlotMidLayer4Plot=False|PlotMidLayer5Plot=False|PlotMidLayer6Plot=False|PlotMidLayer7Plot=False|PlotMidLayer8Plot=False|PlotMidLayer9Plot=False|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPair0_Plot=True|PlotNPTHPairs=False|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPair0_Plot=True|PlotPTHPairs=False|PlotTopLayerPlot=True|PlotTopOverlayPlot=True|PlotTopPastePlot=True|PlotTopSolderPlot=True|PlotViaTypeDrillDrawingPair0_DrillType=Regular|PlotViaTypeDrillDrawingPair0_HighLayer=Top Layer|PlotViaTypeDrillDrawingPair0_LowLayer=Bottom Layer|PlotViaTypeDrillDrawingPair0_Plot=False|PlotViaTypeDrillDrawingPair0_ViaStructureType=7|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePair0_DrillType=Regular|PlotViaTypeDrillGuidePair0_HighLayer=Top Layer|PlotViaTypeDrillGuidePair0_LowLayer=Bottom Layer|PlotViaTypeDrillGuidePair0_Plot=False|PlotViaTypeDrillGuidePair0_ViaStructureType=7|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPair0_DrillType=Regular|PlotViaTypeDrillPair0_HighLayer=Top Layer|PlotViaTypeDrillPair0_LowLayer=Bottom Layer|PlotViaTypeDrillPair0_Plot=False|PlotViaTypeDrillPair0_ViaStructureType=7|PlotViaTypeDrillPairs=False|Record=ODBView|ToolsByDrillSymbols=False|Units=Metric|Version=8.1|DocumentPath=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\DIO_SMA_BNC_MCX_RJ\DIO_RJ45_DIOT_v1.3\DIO_RJ45_DIOT.PCBDOC
 
 [PublishSettings]
 OutputFilePath2=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\DIO_RJ45\Project Outputs for DIO_RJ45\3U_RJ45.PDF
@@ -275,17 +288,17 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=Project Outputs for DIO_RJ45\
-ReleaseManaged3=0
-OutputBasePath3=Project Outputs for DIO_RJ45\
+OutputFilePath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\DIO_SMA_BNC_MCX_RJ\DIO_RJ45_DIOT_v1.3\Project Outputs for PCB_3U_RJ45\
+ReleaseManaged3=1
+OutputBasePath3=Project Outputs for PCB_3U_RJ45
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
 OutputPathOutputerPrefix3=
 OutputPathOutputerValue3=
 OutputFileName3=
-OutputFileNameMulti3=
-UseOutputNameForMulti3=1
+OutputFileNameMulti3==ProjectName
+UseOutputNameForMulti3=0
 OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
@@ -329,7 +342,7 @@ WmvQuality4=80
 [GeneratedFilesSettings]
 RelativeOutputPath2=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\DIO_RJ45\Project Outputs for DIO_RJ45\3U_RJ45.PDF
 OpenOutputs2=1
-RelativeOutputPath3=Project Outputs for DIO_RJ45\
+RelativeOutputPath3=D:\Dropbox\DESIGNS\Sinara_ALTIUM\EEMs\DIO_SMA_BNC_MCX_RJ\DIO_RJ45_DIOT_v1.3\Project Outputs for PCB_3U_RJ45\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
